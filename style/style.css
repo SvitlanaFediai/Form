@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 700px;
+  background-color: rgb(182, 221, 228);
+  margin: 0 auto;
+}
+
+form {
+  padding: 20px;
+  border-radius: 10px;
+  font-family: sans-serif;
+}
+
+form fieldset {
+  padding: 20px;
+  border: solid 2px white;
+  margin-bottom: 20px;
+}
+
+.personal-info {
+  display: flex;
+  margin-bottom: 20px;
+  
+}
+
+label{
+  width: 30%;
+}
+
+input, textarea {
+  border: solid 1px darkorange;
+}
+
+form legend {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.agreement label {
+  width: auto;
+  font-size: 12px;
+}
+
+button {
+  height: 40px;
+  padding: 0 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button {
+display: flex;
+justify-content: space-around;
+}
+
+button[type="reset"] {
+  background-color: brown;
+}
+
+button[type="submit"] {
+  background-color: green;
+}
+
+button:hover {
+  background-color: rgb(43, 107, 226);
+  border: solid 4px orchid ;
+}
+
